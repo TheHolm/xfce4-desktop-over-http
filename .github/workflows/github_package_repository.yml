@@ -30,3 +30,12 @@ jobs:
       env:
         VAR1: ${{ steps.docker.outputs.IMAGE_SHA_NAME }}
         VAR2: ${{ steps.docker.outputs.IMAGE_URL }}
+
+    - name: Build for Dockerhub
+      uses: docker/build-push-action@v3
+      with:
+        context: .
+        platforms: linux/amd64
+        tags: theholm/xfce4-desktop-over-http:latest
+        secrets: |
+          "github_token=${{ secrets.GITHUB_TOKEN }}"
