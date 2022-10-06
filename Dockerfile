@@ -1,4 +1,4 @@
-FROM debian:bullseye
+FROM debian:11.5
 
 # default screen size
 ENV XRES=1280x800x24

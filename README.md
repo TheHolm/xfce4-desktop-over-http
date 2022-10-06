@@ -3,13 +3,13 @@
 A lightweight (519 MB) Linux workstation based on [Debian](https://debian.org/). Provides a **graphical desktop** via HTTP.
 
 **Based on two projects**
- [fcwu/docker-ubuntu-vnc-desktop](https://github.com/fcwu/docker-ubuntu-vnc-desktop)
- [rwildcat/docker_ubuntu-vnc](https://github.com/rwildcat/docker_ubuntu-vnc)
+ * [fcwu/docker-ubuntu-vnc-desktop](https://github.com/fcwu/docker-ubuntu-vnc-desktop)
+ * [rwildcat/docker_ubuntu-vnc](https://github.com/rwildcat/docker_ubuntu-vnc)
 
 but it is not a fork of any of them.
 
-**Last update**: 5 Oct 2022.  
-**Base image**: [Debian 11 bullseye](https://hub.docker.com/_/debian/)
+**Last update**: 6 Oct 2022.  
+**Base image**: [Debian 11.5 bullseye](https://hub.docker.com/_/debian/)
 
 
 ## Main packages
