@@ -71,5 +71,6 @@ RUN chown -R user:user /home/user/.*
 # ports
 EXPOSE 6080
 
-# # default command
-CMD ["/usr/bin/supervisord","-c","/etc/supervisord.conf"]
+# default command
+CMD ["/usr/bin/supervisord","-n","-c","/etc/supervisor/supervisord.conf"]
+# CMD ["/bin/bash"]
