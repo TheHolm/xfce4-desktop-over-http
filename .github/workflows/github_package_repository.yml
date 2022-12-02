@@ -35,6 +35,6 @@ jobs:
           push: true
           tags: |
             theholm/xfce4-desktop-over-http:latest
-            theholm/xfce4-desktop-over-http:11.5
+            theholm/xfce4-desktop-over-http:11.5.2
             ghcr.io/theholm/xfce4-desktop-over-http:latest
-            ghcr.io/theholm/xfce4-desktop-over-http:11.5
+            ghcr.io/theholm/xfce4-desktop-over-http:11.5.2
