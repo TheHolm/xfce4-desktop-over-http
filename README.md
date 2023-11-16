@@ -8,8 +8,8 @@ A lightweight (519 MB) Linux workstation based on [Debian](https://debian.org/).
 
 but it is not a fork of any of them.
 
-**Last update**: 6 Oct 2022.  
-**Base image**: [Debian 11.5 bullseye](https://hub.docker.com/_/debian/)
+**Last update**: 16 Nov 2023.  
+**Base image**: [Debian 11.8 bullseye](https://hub.docker.com/_/debian/)
 
 
 ## Main packages
