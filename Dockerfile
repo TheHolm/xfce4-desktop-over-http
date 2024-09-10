@@ -1,4 +1,4 @@
-FROM debian:11.9
+FROM debian:11.11
 
 # default screen size
 ENV XRES=1280x800x24
