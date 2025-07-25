@@ -8,8 +8,8 @@ A lightweight (519 MB) Linux workstation based on [Debian](https://debian.org/).
 
 but it is not a fork of any of them.
 
-**Last update**: 29 November 2024.  
-**Base image**: [Debian 11.11 bullseye](https://hub.docker.com/_/debian/)
+**Last update**: 25 June 2025.  
+**Base image**: [Debian 12.11 bookworm](https://hub.docker.com/_/debian/)
 
 
 ## Main packages
@@ -37,7 +37,7 @@ but it is not a fork of any of them.
 	* To run session (port 6080):
 
 		```sh
-	   $ docker run --rm -p 127.0.0.01:6080:6080 theholm/xfce4-desktop-over-http
+	   $ docker run --rm -p 127.0.0.1:6080:6080 theholm/xfce4-desktop-over-http
 	   ```
 
 3. Connect to the virtual computer using any modern web browser by browsing to [127.0.0.1:6080](http://127.0.0.1:6080)
